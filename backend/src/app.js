@@ -1,14 +1,18 @@
+const path = require('path');
+const bodyParser = require('body-parser');
+
 const express = require('express');
 const app = express();
-const path = require('path');
 
 const db = require(path.resolve(__dirname, 'db/connection'));
-
 const portApp = 3000;
 
 app.listen(portApp, () => {
     console.log(`The app is listening on port ${portApp}`);
 });
+
+app.use(bodyParser.json());
+// app.use(bodyParser.urlencoded({ extended: false }));
 
 db.authenticate()
     .then(() => {
@@ -18,6 +22,8 @@ db.authenticate()
         console.error(`Something goes wrong in DataBase connection process: ${error}`);
     });
 
-app.get('/', (request, response) => {
-    response.send(`I'm getting the users shit!`);
+app.get('/', (req, res) => {
+  res.send('Rota inicial');
 });
+
+app.use('/jobs', require('./routes/jobs'));
