@@ -23,7 +23,10 @@
     font-weight: 700;
 }
 
-.navbar .nav-item .btn, #search-form button, .list-group-item a{
+.navbar .nav-item .btn,
+#search-form button,
+.list-group-item a,
+#form-box button {
     color: #fff;
     border: 1px solid transparent;
     border-radius: 2px;
@@ -141,6 +144,7 @@
 }
 
 footer {
+    bottom: 0%;
     height: 40px;
     text-align: center;
     line-height: 40px;
@@ -156,6 +160,42 @@ footer a:hover {
     color: #ffdf3e;
     text-decoration: none;
 }
+
+/* Add page */
+
+#add-form-container {
+    margin-top: 100px;
+}
+
+#form-box {
+    padding: 50px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.15);
+    border-radius: 4px;
+    margin-bottom: 50px;
+}
+
+#add-form-container h2 {
+    font-size: 26px;
+    color: #dc3545;
+    margin-bottom: 20px;
+}
+
+#add-form-container form label {
+    font-weight: 700;
+}
+
+#form-box button {
+    font-size: 18px;    
+    height: 40px;
+    width: 150px;
+}
+
+#form-box button i {
+   vertical-align: middle;
+   display: inline-block;
+   margin-right: 10px;
+}
+
 
 
 
