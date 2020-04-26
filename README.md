@@ -1,6 +1,6 @@
 <h5 align="center">
 <img src="./src/public/img/logo.svg" width="80px" /><br>
- <b>Job Finder - Great Oportunities!</b> :older_woman:
+ <b>Job Finder - Great Oportunities!</b> :briefcase:
 </h5>
 <p align="center">
   <a href="https://www.udemy.com/course/javascript-do-basico-ao-avancado-com-node-e-projetos/">
@@ -12,11 +12,20 @@
 <br/>
 
 ## :eyeglasses: How was it?
+
+<img src="./projectImages/screenshot-main.png" width="1000px"/>
+<hr/>
+<img src="./projectImages/screenshot-main2.png" width="1000px"/>
+<hr/>
+<img src="./projectImages/screenshot-job.png" width="1000px"/>
+<hr/>
+<img src="./projectImages/screenshot-post.png" width="1000px"/>
+<hr/>
 <!-- Mobile -->
-<div style="display:flex;justify-content:space-around;">
- <img src="./projectImages/screenshot-main.png" width="1000px"/>
- <img src="./projectImages/screenshot-main2.png" width="1000px"/>
- <img src="./projectImages/screenshot-win.png" width="1000px"/>
+<div style="display:flex;justify-content:space-between;">
+ <img src="./projectImages/mobile-main.png" width="auto" height="500px"/>
+ <img src="./projectImages/mobile-job.png" width="auto" height="500px"/>
+ <img src="./projectImages/mobile-post.png" width="auto" height="500px"/>
 </div>
 
 
